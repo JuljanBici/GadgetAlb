@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color:#ede3da;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#active {
+  width: 0;
+}
+
+#activeBg {
+  opacity: 1;
+  visibility: visible;
+}
+
+#notLiked {
+  display: none;
+}
+
+#notAdded {
+  display: none;
+}
+
+#toggled {
+  display: block;
+  position: absolute;
+  margin-top: 24rem;
+}
+
+#yeeted {
+  display: block;
+  position: absolute;
+}
+
+input[type=email],
+input[type=password] {
+  padding-left: 12px ;
+}
