@@ -45,7 +45,7 @@ const fullCard = ( {purchase, cart} ) => {
             </li>
           </ol>
         </nav>
-        <div className='flex justify-center items-center'>
+        <div className='flex justify-center items-center px-5'>
         <div className="relative mt-5 min-h-full flex w-full max-w-sm lg:max-w-5xl flex-col overflow-hidden rounded-3xl border border-gray-100 bg-white bg-opacity-60 shadow-md lg:flex-row hover:shadow-xl duration-200">
           <div className='flex absolute z-10 w-full items-center gap-4 p-3 bg-white bg-opacity-50 backdrop-blur-lg'>
             <img onClick={goBack} className='h-7 border-[1.5px] border-gray-300 rounded-full p-1 hover:cursor-pointer' src={back} alt='back' />
