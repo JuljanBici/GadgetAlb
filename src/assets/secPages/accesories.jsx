@@ -1,7 +1,7 @@
 import React from 'react'
 import { cardsData } from '../data/cardsData'
 import { Link } from 'react-router-dom'
-import imgAccesories from '/Users/User/Desktop/tailwind-project/src/stockPhotos/accesories.jpg'
+import imgAccesories from '../../stockPhotos/accesories.jpg'
 
 
 export default function Accesories( {purchase, cart , liked , addLiked} ) {

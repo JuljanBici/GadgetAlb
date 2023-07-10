@@ -1,7 +1,7 @@
 import React from 'react'
 import { cardsData } from '../data/cardsData'
 import { Link } from 'react-router-dom'
-import imgGaming from '/Users/User/Desktop/tailwind-project/src/stockPhotos/gaming.jpg'
+import imgGaming from '../../stockPhotos/gaming.jpg'
 
 export default function Gaming( {purchase, cart , liked , addLiked} ) {
 

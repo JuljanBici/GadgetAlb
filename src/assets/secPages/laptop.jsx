@@ -1,7 +1,7 @@
 import React from 'react'
 import { cardsData } from '../data/cardsData'
 import { Link } from 'react-router-dom'
-import imgLaptop from '/Users/User/Desktop/tailwind-project/src/stockPhotos/laptop.jpg'
+import imgLaptop from '../../stockPhotos/laptop.jpg'
 
 export default function Laptop( {purchase, cart , liked , addLiked} ) {
 

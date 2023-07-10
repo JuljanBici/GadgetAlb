@@ -2,7 +2,7 @@ import React from 'react'
 import Cards from '../mainPage/cards'
 import { cardsData } from '../data/cardsData'
 import { Link } from 'react-router-dom'
-import imgConsole from '/Users/User/Desktop/tailwind-project/src/stockPhotos/console.jpg'
+import imgConsole from '../../stockPhotos/console.jpg'
 
 export default function Console( {purchase, cart , liked , addLiked} ) {
 
