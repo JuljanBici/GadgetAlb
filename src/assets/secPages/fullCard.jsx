@@ -1,7 +1,7 @@
 import React from 'react'
 import { Outlet, Link, useParams, useLocation, useNavigate } from "react-router-dom";
 import { cardsData } from '../data/cardsData';
-import back from '/Users/User/Desktop/tailwind-project/src/stockPhotos/back.png'
+import back from '../../stockPhotos/back.png'
 
 const fullCard = ( {purchase, cart} ) => {
 
