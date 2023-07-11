@@ -63,13 +63,13 @@ export default function prodSlider( {purchase, cart , liked , addLiked} ) {
         <Slider {...settings}>
           {cardsData.map((phone) => (
           <div key={phone.id} className="relative flex w-full min-h-full max-w-xs flex-col overflow-hidden rounded-3xl border border-gray-100 bg-white shadow hover:shadow-xl duration-200">
-          <Link onClick={refreshPage} to={`/${phone.type}/${phone.id}`}>
+          <Link onClick={refreshPage} to={`/GadgetAlb/${phone.type}/${phone.id}`}>
             <a className="relative  mx-3 mt-3 flex h-50 overflow-hidden rounded-xl">
               <img className="object-cover w-full hover:scale-110 duration-200" src={phone.url} alt="product image" />
             </a>
           </Link>
           <div className="mt-4 px-5 pb-5">
-            <Link onClick={refreshPage} to={`/${phone.type}/${phone.id}`}>
+            <Link onClick={refreshPage} to={`/GadgetAlb/${phone.type}/${phone.id}`}>
               <a className='flex items-center pb-[5rem] justify-around'>
                 <h5 className="text-xl font-semibold tracking-tight text-slate-900 w-[13rem]">{phone.name}</h5>
               </a>
