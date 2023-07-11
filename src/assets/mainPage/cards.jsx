@@ -22,13 +22,13 @@ export default function Cards( {purchase, cart , liked , addLiked} ) {
               if (prod.new === true) {
                 return (
               <div key={prod.id} className="relative min-h-full flex w-full max-w-xs flex-col overflow-hidden rounded-3xl border border-gray-100 bg-white shadow-md hover:shadow-xl duration-200">
-              <Link onClick={refreshPage} to={`/GadgetAlb/${prod.type}/${prod.id}`}>
+              <Link onClick={refreshPage} to={`/${prod.type}/${prod.id}`}>
                 <a className="relative  mx-3 mt-3 flex h-60 overflow-hidden rounded-xl">
                   <img className="object-cover w-full hover:scale-110 duration-200" src={prod.url} alt="product image" />
                 </a>
               </Link>
               <div className="mt-4 px-5 pb-5">
-                <Link onClick={refreshPage} to={`/GadgetAlb/${prod.type}/${prod.id}`}>
+                <Link onClick={refreshPage} to={`/${prod.type}/${prod.id}`}>
                   <a className='flex items-center pb-[5rem] justify-around'>
                     <h5 className="text-xl font-semibold tracking-tight text-slate-900 w-[13rem]">{prod.name}</h5>
                   </a>

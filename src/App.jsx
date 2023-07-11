@@ -119,19 +119,19 @@ export default function App() {
             </div>
           }
           <Routes>
-            <Route path="/GadgetAlb" element={<MainPage purchase={purchase} cart={cart} liked={liked} addLiked={addLiked} />} />
-            <Route path="/GadgetAlb/sherbimet" element={<Sherbimet />} />
-            <Route path="/GadgetAlb/contactUs" element={<RrethNesh />} />
-            <Route path="/GadgetAlb/login" element={<Login />} />
-            <Route path="/GadgetAlb/signup" element={<Signup />} />
-            <Route path="/GadgetAlb/account" element={<ProtectedRoute><Account /></ProtectedRoute>} />
-            <Route path="/GadgetAlb/liked" element={<Liked removeLiked={removeLiked} cart={cart} liked={liked} purchase={purchase} />} />
-            <Route path="/GadgetAlb/Smartphone" element={<Smartphone purchase={purchase} cart={cart} liked={liked} addLiked={addLiked} />} />
-            <Route path="/GadgetAlb/Laptop" element={<Laptop purchase={purchase} cart={cart} liked={liked} addLiked={addLiked} />} />
-            <Route path="/GadgetAlb/Console" element={<Console purchase={purchase} cart={cart} liked={liked} addLiked={addLiked} />} />
-            <Route path="/GadgetAlb/Accesories" element={<Accesories purchase={purchase} cart={cart} liked={liked} addLiked={addLiked} />} />
-            <Route path="/GadgetAlb/Gaming" element={<Gaming purchase={purchase} cart={cart} liked={liked} addLiked={addLiked} />} />
-            <Route path="/GadgetAlb/:productType/:productId" element={<FullCard purchase={purchase} cart={cart}/>} />
+            <Route path="/" element={<MainPage purchase={purchase} cart={cart} liked={liked} addLiked={addLiked} />} />
+            <Route path="/sherbimet" element={<Sherbimet />} />
+            <Route path="/contactUs" element={<RrethNesh />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/signup" element={<Signup />} />
+            <Route path="/account" element={<ProtectedRoute><Account /></ProtectedRoute>} />
+            <Route path="/liked" element={<Liked removeLiked={removeLiked} cart={cart} liked={liked} purchase={purchase} />} />
+            <Route path="/Smartphone" element={<Smartphone purchase={purchase} cart={cart} liked={liked} addLiked={addLiked} />} />
+            <Route path="/Laptop" element={<Laptop purchase={purchase} cart={cart} liked={liked} addLiked={addLiked} />} />
+            <Route path="/Console" element={<Console purchase={purchase} cart={cart} liked={liked} addLiked={addLiked} />} />
+            <Route path="/Accesories" element={<Accesories purchase={purchase} cart={cart} liked={liked} addLiked={addLiked} />} />
+            <Route path="/Gaming" element={<Gaming purchase={purchase} cart={cart} liked={liked} addLiked={addLiked} />} />
+            <Route path="/:productType/:productId" element={<FullCard purchase={purchase} cart={cart}/>} />
             <Route path="*" element={<Error/>} />
           </Routes>
           <Footer />
