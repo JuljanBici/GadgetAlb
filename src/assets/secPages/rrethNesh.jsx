@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import maps from '../../stockPhotos/maps.png'
 
 function ContactUs() {
   const form = useRef();
@@ -35,7 +36,9 @@ function ContactUs() {
             </div>
           </div>
           <div className="w-1/2 pl-4">
-            <div className="h-64 bg-gray-200 rounded-lg"></div>
+            <div className="h-64 bg-gray-200 rounded-lg">
+              <img src={maps} />
+            </div>
           </div>
         </div>
       </div>
